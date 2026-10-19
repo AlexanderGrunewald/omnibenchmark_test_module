@@ -1,0 +1,14 @@
+[workspace]
+authors = ["AlexanderGrunewald <AlexanderGrunewald@uzh.ch>"]
+channels = ["conda-forge"]
+name = "omnibenchmark_test_module"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.14.*"
+scanpy = ">=1.12.4,<2"
+numpy = ">=2.5.4,<3"
+pandas = ">=3.0.6,<4"
